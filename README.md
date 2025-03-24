@@ -1,12 +1,49 @@
-# React + Vite
+# Redux Bunny 🐇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Redux Bunny is a **starter template** that comes with essential tools pre-installed, making it easy to kickstart your React projects with state management and styling. It includes:
 
-Currently, two official plugins are available:
+- **React** ⚛️
+- **Redux & Redux Toolkit** 🛠️
+- **React-Redux** 🔗
+- **Tailwind CSS** 🎨
+- **Vite** ⚡ (for fast development)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+To use this template, clone the repository and install dependencies:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+git clone https://github.com/codewithsaidul/redux-bunny.git
+npm install  # Install in the current directory
+```
+
+If you want to install in a specific folder, navigate to it first:
+
+```sh
+git clone https://github.com/codewithsaidul/redux-bunny.git
+cd redux-bunny
+npm install
+```
+
+## Running the Project
+
+Start the development server with:
+
+```sh
+npm run dev
+```
+
+## Features
+
+- Pre-configured **Redux Toolkit** for easy state management
+- **React-Redux** integration
+- **Tailwind CSS** for styling
+- Optimized with **Vite** for fast builds and hot module replacement
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+**Made with ❤️ by [CodeWithSaidul](https://codewithsaidul.vercel.app)** 🐇
