@@ -5,6 +5,11 @@ import inquirer from "inquirer";
 import path from "path";
 import process from "process";
 
+// Prevent execution when `npm install` runs
+if (process.env.npm_config_global || process.env.npm_execpath.includes("npm-cli.js")) {
+  process.exit(0);
+}
+
 // ইউজারের কাছে ফোল্ডারের নাম জানতে চাওয়া
 const askProjectName = async () => {
   const answers = await inquirer.prompt([

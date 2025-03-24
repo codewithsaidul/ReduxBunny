@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "type": "module",
   "bin": {
-    "redux-bunny": "./bunny.js"
+    "reduxbunny": "./bunny.js"
   },
   "scripts": {
     "dev": "vite",
